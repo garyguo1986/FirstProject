@@ -5,5 +5,6 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
         CompanyInfoL: Codeunit "Company Information Mgt.";
     begin
         Message(Format(CompanyInfoL.IsDemoCompany()));
+        Message('Hello World');
     end;
 }
