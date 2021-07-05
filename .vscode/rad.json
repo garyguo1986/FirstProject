@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50100,"Kind":10,"Name":"FP System Table","PackagePath":"/src/AL/Table/Tab50100.FPSystemTable.al"},{"Id":50102,"Kind":11,"Name":"FP Event Subscriber","PackagePath":"/src/AL/Codeunit/Cod50102.FPEventSubscriber.al"}],"Removed":[{"Id":0,"Kind":10,"Name":"_symbolcache","PackagePath":"/src/.vscode/temp-al-proxy.al"}]}

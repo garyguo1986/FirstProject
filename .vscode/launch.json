@@ -3,6 +3,23 @@
     "configurations": [
         {
             "name": "localhost",
+            "type": "al",
+            "request": "attach",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080/BC180",
+            "serverInstance": "BC180",
+            "authentication": "Windows",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebClient",
+            "tenant": "default"
+        },
+        {
+            "name": "localhost",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
