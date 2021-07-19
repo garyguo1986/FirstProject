@@ -1,0 +1,3 @@
+GET http://www.baidu.com HTTP/1.1
+###
+GET http://www.bing.com HTTP/1.1
